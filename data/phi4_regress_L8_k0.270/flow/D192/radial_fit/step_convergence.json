@@ -1,0 +1,11 @@
+{
+  "trials": [
+    {
+      "steps": 32,
+      "refined_steps": 64,
+      "relative_rms_phi": 0.0002191409861270784,
+      "max_logdet_difference": 0.003802658313663443
+    }
+  ],
+  "steps": 64
+}

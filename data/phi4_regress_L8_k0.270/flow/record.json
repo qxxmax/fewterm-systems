@@ -1,0 +1,29 @@
+{
+  "L": 8,
+  "kappa": 0.27,
+  "steps": 32,
+  "step_guard": {
+    "steps": 32,
+    "accepted": 128,
+    "ESS_steps": 0.7561684869855817,
+    "ESS_accepted": 0.7561741408820684
+  },
+  "note_cost": "seconds_per_proposal includes run.observables on every proposal",
+  "accepted_steps_continuous": 128,
+  "bound": 23.67652842807576,
+  "fit_seconds": 24.890994100016542,
+  "seconds_per_proposal": 0.001087367041015419,
+  "ESS": 0.7577945640283125,
+  "Var_logw_per_site": 0.0058302338312739435,
+  "acceptance": 0.7031478881835938,
+  "ratios": [
+    1.0061431069104434,
+    0.755599089228976,
+    0.9809186248633603
+  ],
+  "seeds": {
+    "pool": 31046000,
+    "is": 31046050,
+    "chain": 31046060
+  }
+}

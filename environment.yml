@@ -1,0 +1,15 @@
+# conda env create -f environment.yml && conda activate fewterm
+# Tested versions: see requirements.txt.  For a CUDA build of torch, install it from pytorch.org instead.
+name: fewterm
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy>=1.26
+  - scipy>=1.13
+  - numba>=0.60
+  - mpmath>=1.3
+  - pytest>=8
+  - pip
+  - pip:
+      - torch>=2.4

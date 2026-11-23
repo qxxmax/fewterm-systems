@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+*.pt
+*.pth
+*.npy
+*.log
+!data/phi4_regress_L8_k0.270/pool_0/fit_pool.pt
+runs/
+baselines/runs/
+notebooks/results_L8_12_16.json
